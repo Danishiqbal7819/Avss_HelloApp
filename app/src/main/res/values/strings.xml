@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HelloApp</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="countryArray">
+        <item>Select your country</item>
+        <item>India</item>
+        <item>America</item>
+        <item>Iran</item>
+        <item>China</item>
+        <item>Pakistan</item>
+        <item>Saudi Arabia</item>
+        <item>Oman</item>
+        <item>Qatar</item>
+        <item>Kuwait</item>
+        <item>Australia</item>
+        <item>South Africa</item>
+        <item>England</item>
+        <item>Oman</item>
+        <item>UAE</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+    </string-array>
+
+
+    <string-array name="StateArray">
+        <item>Select State</item>
+        <item>Uttar Pradesh</item>
+        <item>Bihar</item>
+        <item>Chennai</item>
+        <item>Maharashtra</item>
+    </string-array>
+
+
+    <string-array name="DistrictArray">
+        <item>Select District</item>
+        <item>Hapur</item>
+        <item>Meerut</item>
+        <item>Bulandshahar</item>
+        <item>Agra</item>
+    </string-array>
+</resources>

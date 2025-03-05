@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    <style name="Theme.HelloApp" parent="android:Theme.Material.Light.NoActionBar" />-->
+    <style name="Theme.HelloApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme -->
+        <item name="colorPrimary">#55C2ED</item> <!-- Action Bar color -->
+        <item name="colorPrimaryDark">#55C2ED</item> <!-- Status Bar color -->
+        <item name="colorAccent">#FF03DAC5</item> <!-- Accent color -->
+
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#55C2ED</item> <!-- Action Bar color -->
+        <item name="colorPrimaryDark">#55C2ED</item> <!-- Status Bar color -->
+        <item name="colorAccent">#FF03DAC5</item> <!-- Accent color -->
+    </style>
+
+    <style name="RDbAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/AxisColor</item> <!-- Action Bar color -->
+        <item name="colorPrimaryDark">@color/AxisColor</item> <!-- Status Bar color -->
+        <item name="colorAccent">#FF03DAC5</item> <!-- Accent color -->
+    </style>
+</resources>

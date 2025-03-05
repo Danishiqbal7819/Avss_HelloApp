@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_main">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@android:drawable/stat_sys_vp_phone_call_on_hold"
+            android:iconTint="?attr/colorPrimary"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:iconTint="?attr/colorPrimary"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:iconTint="?attr/colorError"
+            android:title="Logout" />
+    </group>
+
+    <item
+        android:enabled="false"
+        android:title="---" />
+
+    <group android:id="@+id/group_others">
+        <item
+            android:enabled="false"
+            android:title="Other Options" />
+
+        <item
+            android:id="@+id/favourite"
+            android:icon="@android:drawable/star_on"
+            android:iconTint="?attr/colorAccent"
+            android:title="Favorites" />
+
+        <item
+            android:id="@+id/close"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:iconTint="?attr/colorSecondary"
+            android:title="Close" />
+    </group>
+
+</menu>

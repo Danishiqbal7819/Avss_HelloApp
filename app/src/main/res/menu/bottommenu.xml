@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+        <item
+            android:id="@+id/menuhome"
+            android:icon="@drawable/home"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/menufav"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Favourites">
+
+        </item>
+        <item
+            android:id="@+id/menunotify"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="Notifications">
+
+        </item>
+    </group>
+</menu>
