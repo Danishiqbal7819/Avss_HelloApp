@@ -1,24 +1,19 @@
-#Project Title:
-Hello App.
+# Hello App
 
-#Description:
 Hello App is a Mobile Application built using Kotlin.
-1.includes varius internship tasks and logics such as image picking from gallery and camera.
 
+## Features and Functionality
 
-#Feature and Functinality:
-1.Hello App uses Mvvm and Architecture and  some packages are not built to follow MVVM Architecture.
-2.It also include activities to get the firstname,middle name,lastname and phone,email etc.
-3.It aslo use get and post api for fetching country,states and city for user address.
+* Image Picking: Pick images from gallery and camera.
+* MVVM Architecture: Built using MVVM architecture for a clean and scalable codebase.
+* User Profile: Activities to collect user information such as first name, middle name, last name, phone, and email.
+* API Integration: Uses GET and POST APIs to fetch country, state, and city for user address.
 
-#Kotlin Version:
-It uses kotlin version .
-kotlin = "1.9.0".
+## Technical Details
 
-#kotlinCompilerVersion:
-kotlinCompilerExtensionVersion = "1.5.1"
-
-#SDK  and Target Version :
-compileSdk = 34.
-minSdk = 24.
-targetSdk = 34.
+* **Kotlin Version:** 1.9.0
+* **Kotlin Compiler Extension Version:** 1.5.1
+* **SDK and Target Version:**
+  + Compile SDK: 34
+  + Min SDK: 24
+  + Target SDK: 34
